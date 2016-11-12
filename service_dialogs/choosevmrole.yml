@@ -1,0 +1,61 @@
+---
+- description: Choose VM Role
+  buttons: submit,cancel
+  label: ChooseVMRole
+  dialog_tabs:
+  - description: 
+    display: edit
+    label: Tab1
+    display_method: 
+    display_method_options: 
+    position: 0
+    dialog_groups:
+    - description: 
+      display: edit
+      label: Select Role
+      display_method: 
+      display_method_options: 
+      position: 0
+      dialog_fields:
+      - name: vm_role
+        description: 
+        type: DialogFieldTagControl
+        data_type: string
+        notes: 
+        notes_display: 
+        display: edit
+        display_method: 
+        display_method_options: {}
+        required: true
+        required_method: 
+        required_method_options: {}
+        default_value: 
+        values: 
+        values_method: 
+        values_method_options: {}
+        options:
+          :category_id: '132'
+          :force_single_value: true
+          :sort_by: :description
+          :sort_order: :ascending
+          :category_name: vm_role
+          :category_description: VM_role
+        label: VM Role
+        position: 0
+        validator_type: 
+        validator_rule: 
+        reconfigurable: 
+        dynamic: false
+        show_refresh_button: 
+        load_values_on_init: 
+        read_only: false
+        auto_refresh: 
+        trigger_auto_refresh: 
+        resource_action:
+          action: 
+          resource_type: DialogField
+          ae_namespace: 
+          ae_class: 
+          ae_instance: 
+          ae_message: 
+          ae_attributes: {}

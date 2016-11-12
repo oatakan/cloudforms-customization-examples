@@ -1,0 +1,12 @@
+---
+object_type: method
+version: 1.0
+object:
+  attributes:
+    name: create_tag_category
+    display_name: Create Tag Category
+    description: 
+    scope: instance
+    language: ruby
+    location: inline
+  inputs: []
